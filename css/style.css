@@ -5,12 +5,15 @@ body {
 }
 
 .wrapper {
-  position: relative;
+  position: absolute;
   overflow: hidden;
   padding: 2%;
+  padding-top: 0;
+  padding-bottom: 0;
   width: 85%;
   margin-left: 5%;
-  margin-top: 3%;
+  top: 50%;
+  transform: translate(0, -50%);
 }
 .wrapper > input {
   -webkit-appearance: none;
